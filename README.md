@@ -1,6 +1,3 @@
-# github-3.2-jody
-Assignment 3.2
-
 ## Git Commands
 #### Create repositories 
 When starting out with a new repository, you only need to do it once; either locally, then push to GitHub, or by cloning an existing repository.  
