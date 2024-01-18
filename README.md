@@ -1,8 +1,8 @@
 # github-3.2-jody
 Assignment 3.2
 
-
-## Create repositories 
+## Git Commands
+#### Create repositories 
 When starting out with a new repository, you only need to do it once; either locally, then push to GitHub, or by cloning an existing repository.  
  
 ```
@@ -11,7 +11,7 @@ git init - Turn an existing directory into a git repository
 git clone [url] - Download a repository that already exists on GitHub, including all branches, commits and files
 ```
 
-## Branches
+#### Branches
 Branches are an important part of working with Git. Any commits you make will be made on the branch you're currently “checked out” to. Use git status to see which branch that is.
 
 ```
@@ -27,7 +27,7 @@ git merge [branch] - Combines the specified branch’s history into the current 
 
 ```
 
-## Synchronize changes
+#### Synchronize changes
 Synchronize your local repository with the remote repository on GitHub.com
 
 ```
@@ -41,7 +41,7 @@ git pull - Updates your current local working branch with all new commits from t
 
 ```
 
-## Make changes
+#### Make changes
 Browse and inspect the evolution of project files
 
 ```
@@ -60,7 +60,7 @@ git commit -m "[descriptive message]" - Records file snapshots permanently in ve
 git diff branchB..branchA - show the diff of what is in branchA that is not in branchB
 ```
 
-## Redo commits
+#### Redo commits
 Erase mistakes and craft replacement history
 
 ```
@@ -75,7 +75,7 @@ git rm [file] - Delete the file from project and stage the removal for commit
 git mv [existing path] [new path] - change an existing file path and stage the move 
 ```
 
- > [!caution]
+> [!caution]
 > Changing history can have nasty side effects. If you need to change commits that exist on GitHub, proceed with caution.
 
 ---
@@ -93,7 +93,7 @@ We will have to fetch and merge commits from the tracked remote branch to our lo
 
 ---
 
-## GitHub ## GitHub Authentication 
+## GitHub Authentication 
 To keep your account secure, you must authenticate before you can access certain resources on GitHub. When you authenticate to GitHub, you supply or confirm credentials that are unique to you to prove that you are exactly who you declare to be.
 
 #### You can access your resources in GitHub in a variety of ways: 
